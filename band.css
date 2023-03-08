@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.left-header{
+   background-color: black; 
+   height: 40px;
+   background-attachment:scroll;
+   position:sticky;
+   position: fixed;
+   width: 100vw;
+}
+.left-header nav li{
+    display: inline-block;
+    padding-top: 10px;
+}
+.left-header nav li a{
+    color:white;
+    text-decoration: none;
+    border:2px solid black;
+    padding:20px 40px 10px 40px;
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.left-header nav li a:hover{
+    background-color:grey;
+}
+
+.left-header nav i{
+    color:white;
+    float:right;
+    padding: 10px 30px 10px 30px;
+
+}
+
+.left-header nav i:hover{
+    background-color: red;
+}
+
+
+.firstpage{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.001), #009688),url(band1.jpeg);
+    height:100vh;
+    background-size: cover;
+}
+
+
+.second-page{
+    width:900px;
+    position: relative;
+    left:50vh;
+    padding-top: 50px;
+}
+
+.second-page h2, .thirdpage h2{
+    font-style: italic;
+    color:grey;
+    font-size: smaller;
+}
+.second-page .content{
+    text-align: justify;
+}
+
+
+.second-page .images .image1,.image2,.image3{
+    /* background-image: linear-gradient(); */
+    display: inline-block;
+    margin-right:70px;
+    border-radius: 50%;
+}
+
+
+.second-page .images{
+    margin-top: 50px;
+    
+}
+
+.thirdpage{
+    margin-top:100px;
+    padding-top:50px;
+    background-color: black;
+    height:120vh;
+    
+}
+
+.thirdpage .contentx{
+    margin-top: 30px;
+    background-color: #ffff;
+    color:black;
+    position: relative;
+    left:45vh;
+    width: 900px;
+    /* text-align: center; */
+    /* padding-left:100vh; */
+}
+
+.thirdpage .contentx p{
+
+    border-bottom:1px solid gray;
+    padding:10px;
+}
+.thirdpage h1{
+    color:white;
+    margin-bottom:20px ;
+}
+
+.thirdpage .imagesx{
+    margin-top: 100px;
+    display:inline-block;
+    /* padding-top:5px; */
+}
+
+.thirdpage .image1x,.image2x,.image3x{
+    display: inline-block;
+    position:relative;
+    left:50vh;
+    margin-right: 50px;
+    color:black;
+    padding:0px;
+    text-align: center;
+    border:2px solid white;
+    text-align: left;
+    height:400px;
+    background-color: white;
+}
+
+
+.contactdetails{
+    background-color: white;
+    height:70vh;
+    margin-top:50px;
+    width:70vw;
+    margin-left:30vh;
+    /* border:2px solid black; */
+}
+
+.contactdetails h1,h2{
+    text-align: center;
+    margin-bottom:20px;
+    font-weight: lighter;
+    
+}
+.contactdetails h2{
+    font-style: italic;
+    color:grey;
+    font-size: smaller;
+
+}
+
+
+.thirdpage .image1x .date,.image2x .date,.image3x .date{
+    margin-top: 5px;
+    margin-bottom: 120px;
+    font-size: smaller;
+    color:grey;
+    font-style:italic;
+}
+
+
+.thirdpage .image1x a,.image2x a,.image3x a{
+    border:2px solid black;
+    /* margin:60px; */
+
+    padding:3px;
+    color:white;
+    background-color: black;
+    text-decoration: none;
+}
+
+
+.thirdpage .image1x a:hover,.image2x a:hover,.image3x a:hover{
+    background-color: grey;
+    color:black;
+}
+
+.contactdetails .contactcontent{
+    margin-top: 5vw;
+}
+
+.contactdetails .contactcontent .right i{
+    font-size: medium;
+    margin-left: 10vw ;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+.contactdetails .contactcontent .left{
+    position: absolute;
+    right:20vw;
+    top:370vh;
+}
+
+.contactdetails .contactcontent .left input[type=text], select{
+    width:200px;
+    margin:0 10px 5px 0;   
+    height:30px;
+
+}
+
+.contactdetails .contactcontent .left .submit{
+    position: absolute;
+    left:22.3vw;
+    border:2px solid black;
+    padding:5px 20px 5px 20px;
+    background-color: black;
+    color:white;
+}
+
+.contactdetails .contactcontent .left .submit:hover{
+    cursor: pointer;
+    background-color: grey;
+    color:black;    
+}
+
+
+.picturepage{
+    background-image: url(band5.webp);
+    height:100vh;
+    background-size: cover;
+}
+
+.lastpage{
+    height:30vh;
+}
+
+
+
+
+.lastpage .contactlinks{
+    margin-left:40vw;
+    margin-top: 10%;    
+}
+
+
+
+.lastpage .contactlinks a i{
+    color:gray;
+    text-align: center;
+    font-size: 5vh;
+    margin-right: 15px;
+}
+
+
+.lastpage .contactlinks a i:hover{
+    color:lightgray;
+} 
